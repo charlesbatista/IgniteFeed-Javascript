@@ -1,0 +1,85 @@
+.comentario {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem
+}
+
+.comentario .caixa {
+    flex: 1;
+}
+
+.comentario .caixa .wrapper {
+    background-color: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem
+}
+
+.comentario header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.comentario header .info {
+    display: flex;
+    flex-flow: column;
+}
+
+.comentario header .info b {
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.comentario header .info time {
+    font-size: 0.75rem;
+    line-height: 1.6;
+    color: var(--gray-400);
+}
+
+.comentario header button[type=button] {
+    background-color: transparent;
+    color: var(--gray-400);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 3px;
+}
+
+.comentario header button[type=button]:hover {
+    color: var(--red-500)
+}
+
+.comentario .conteudo p {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: var(--gray-300)
+}
+
+.comentario footer {
+    margin-top: 1rem
+}
+
+.comentario footer button {
+    background-color: transparent;
+    color: var(--gray-400);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border-radius: 3px;
+    transition: all ease-in-out 0.1s;
+}
+
+.comentario footer button:hover {
+    color: var(--green-300)
+}
+
+.comentario footer button svg {
+    line-height: 0;
+}
+
+.comentario footer button span::before {
+    content: "\2022";
+    padding-right: 0.25rem
+}
