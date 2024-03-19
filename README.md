@@ -14,3 +14,11 @@ Neste projeto aprendi:
 - Iterando sobre objetos, usando key para identificação dos componentes
 - Validação simples de formulário
 - Aprendendo conceitos iniciais sobre Closures
+
+# Resultado do projeto para telas de computadores:
+
+<img src="src/assets/img/IgniteFeed-Javascript.jpeg">
+
+# Resultado do projeto para telas menores:
+
+<img src="src/assets/img/IgniteFeed-Javascript-Mobile.jpeg">
